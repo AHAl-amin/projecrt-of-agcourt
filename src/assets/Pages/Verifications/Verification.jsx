@@ -28,7 +28,7 @@ const Verification = () => {
             <div className='flex items-center justify-center w-full'>
                 <h1 className='font-raleway  text-[40px] font-extrabold'>LOGO</h1>
             </div>
-            <div className="text-center space-y-10">
+            <div className="text-center space-y-16">
                 <div className="flex flex-col justify-start items-start">
                     <h2 className="text-[36px] font-bold text-[#43506C] ">OTP Verification</h2>
                     <p className="text-[16px] text-[#43506C] ">

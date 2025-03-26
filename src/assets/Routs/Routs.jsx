@@ -8,6 +8,7 @@ import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
 import Verification from "../Pages/Verifications/Verification";
+import ResetPassword from "../Pages/ResetPassword/ResetPassword";
 
 
   export const router = createBrowserRouter([
@@ -34,6 +35,10 @@ import Verification from "../Pages/Verifications/Verification";
         {
             path: "/verification",
             element: <Verification></Verification>
+        },
+        {
+            path: "/resetpassword",
+            element: <ResetPassword></ResetPassword>
         }
       ]
     },

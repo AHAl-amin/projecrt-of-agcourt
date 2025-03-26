@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home";
 import Main from "../Layoute/Main/Main";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
+import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
 
 
   export const router = createBrowserRouter([
@@ -24,6 +25,10 @@ import SignUp from "../Pages/SignUp/SignUp";
         {
             path: "/signup",
             element:<SignUp></SignUp>
+        },
+        {
+            path: "/forgetpassword",
+            element:<ForgetPassword></ForgetPassword>,
         }
       ]
     },

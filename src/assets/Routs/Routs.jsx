@@ -7,6 +7,7 @@ import Main from "../Layoute/Main/Main";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
+import Verification from "../Pages/Verifications/Verification";
 
 
   export const router = createBrowserRouter([
@@ -29,6 +30,10 @@ import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
         {
             path: "/forgetpassword",
             element:<ForgetPassword></ForgetPassword>,
+        },
+        {
+            path: "/verification",
+            element: <Verification></Verification>
         }
       ]
     },

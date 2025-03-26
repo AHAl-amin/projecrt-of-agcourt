@@ -9,12 +9,12 @@ function ForgetPassword() {
             </div>
           <div className='space-y-10'>
           <div className=' '>
-                <h1 className='font-bold text-4xl'>Forgot Password</h1>
-                <p className='text-[16px] mt-2'>Please enter your email address to reset password.</p>
+                <h1 className='font-bold text-4xl '>Forgot Password</h1>
+                <p className='text-[16px] mt-2 text-[#3D619B]'>Please enter your email address to reset password.</p>
             </div>
             <div className='relative'>
                 <FiMail className="absolute left-3 top-[62px] transform -translate-y-1/2 text-gray-400" />
-                <label htmlFor="email">Your Email</label><br />
+                <label className='text-[#3D619B]' htmlFor="email">Your Email</label><br />
                 <input className='border text-[16px] mt-2 pl-10 border-[#2563EA] md:w-[661px] h-[56px] rounded-2xl' type="email" name="email" placeholder="Enter Email" />
             </div>
             <div>
